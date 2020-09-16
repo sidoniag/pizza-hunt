@@ -1,13 +1,4 @@
-{
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "name": "18-nosql",
-=======
-  "name": "pizza-hunt",
->>>>>>> b41f9db4928e99b7b4ed2fa4748d5417b1b88105
-=======
-  "name": "pizza-hunt",
->>>>>>> feature/user-model
+{"name": "pizza-hunt",
   "version": "1.0.0",
   "private": true,
   "description": "",
@@ -19,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.10.5"
+    "express": "^4.17.1"
   }
 }
