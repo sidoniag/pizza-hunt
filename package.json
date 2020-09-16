@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "18-nosql",
+=======
+  "name": "pizza-hunt",
+>>>>>>> b41f9db4928e99b7b4ed2fa4748d5417b1b88105
   "version": "1.0.0",
   "private": true,
   "description": "",
