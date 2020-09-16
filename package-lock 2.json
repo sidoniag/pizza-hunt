@@ -3,7 +3,11 @@
   "name": "18-nosql",
 =======
   "name": "pizza-hunt",
+<<<<<<< HEAD
+>>>>>>> b41f9db4928e99b7b4ed2fa4748d5417b1b88105
+=======
 >>>>>>> 2e7ae4e1688af38aac50332dccdb1b6964399415
+>>>>>>> feature/user-model
   "version": "1.0.0",
   "lockfileVersion": 1,
   "requires": true,
