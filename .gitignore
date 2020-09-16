@@ -1,7 +1,12 @@
 node_modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 .DS_stores
 .env
 =======
 DS_stores
 >>>>>>> b41f9db4928e99b7b4ed2fa4748d5417b1b88105
+=======
+.DS_stores
+.env
+>>>>>>> feature/user-model
