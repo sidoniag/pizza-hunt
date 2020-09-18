@@ -8,7 +8,8 @@ const {
 
 // /api/comments/<pizzaId>
 router
-    .route('/:pizzaId').post(addComment);
+    .route('/:pizzaId')
+    .post(addComment);
 
 // /api/comments/<pizzaId>/<commentId>/<replyId>
 router

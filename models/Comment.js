@@ -23,7 +23,7 @@ const ReplySchema = new Schema (
     {
     toJSON: {
             getters: true
-        }
+        } 
     }
 );
 
