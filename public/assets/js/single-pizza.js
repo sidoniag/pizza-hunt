@@ -1,5 +1,3 @@
-// const { response } = require("express");
-
 const $backBtn = document.querySelector('#back-btn');
 const $pizzaName = document.querySelector('#pizza-name');
 const $createdBy = document.querySelector('#created-by');
@@ -154,7 +152,7 @@ function handleNewReplySubmit(event) {
 
   const formData = { writtenBy, replyBody };
 
-fetch(`/api/comments${pizzaId}/${commentId}`, {
+fetch(`/api/comments/${pizzaId}/${commentId}`, {
   method: 'PUT',
   headers: {
     Accept: 'application/json',

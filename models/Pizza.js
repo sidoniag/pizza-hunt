@@ -1,5 +1,5 @@
-const moment = require('moment');
 const { Schema, model } = require('mongoose');
+const moment = require('moment');
 
 const PizzaSchema = new Schema({
     pizzaName: {
@@ -30,6 +30,7 @@ const PizzaSchema = new Schema({
         virtuals: true,
         getters: true
     },
+    // prevents virtuals from creating duplicates of _id as `id`
     id: false
 }
 );
